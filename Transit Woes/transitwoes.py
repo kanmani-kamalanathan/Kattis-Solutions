@@ -1,3 +1,5 @@
+#https://open.kattis.com/problems/transitwoes
+
 def read():
     s,t,n = map(int,input().split())
     walks = list(map(int, input().split()))
