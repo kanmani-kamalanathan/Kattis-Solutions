@@ -1,0 +1,10 @@
+a=input().split()
+e,f,c=int(a[0]),int(a[1]),int(a[2])
+s=0
+e+=f
+while(e>=c):
+    new=e//c
+    rem=e%c
+    s+=new
+    e=new+rem
+print(s)
